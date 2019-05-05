@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tree>
   <directory name="out/">
-    <file name="sitemap.html"/>
     <file name="index.html"/>
     <file name="contact.html"/>
     <file name="about.html"/>
