@@ -17,7 +17,22 @@ h1, h2, h3 {
     "aside footer";
 }
 
-@media only screen and (max-width: 80ch) {
+.site-aside {
+    grid-area: aside;
+}
+
+@media only screen and (min-width: 71ch) {
+    .site-aside {
+        position: sticky;
+        top: 1em;
+        height: calc(100vh - 2em);
+    }
+    .site-aside figure {
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 70ch) {
     .site {
         display: grid;
         grid-template-columns: 100%;
@@ -42,17 +57,12 @@ h1, h2, h3 {
     display: block;
     padding-right: 1ch;
 }
-/*.site-nav li a:hover {
-    background-color: #555;
-    color: white;
-}*/
-
-.site-aside {
-    grid-area: aside;
-}
 
 .site-header {
     grid-area: header;
+}
+.site-header h1 {
+    margin: 0;
 }
 
 .main {
