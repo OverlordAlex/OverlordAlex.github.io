@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /resources/images/
+
+Sitemap: https://itsabugnotafeature.com/sitemap.xml

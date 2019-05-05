@@ -103,6 +103,15 @@ code, q {
     max-width: 70ch;
 }
 
+main .heading {
+    line-height: 0;
+}
+main .heading time {
+    color: darkgrey;
+    display:block;
+    text-align:right;
+}
+
 .references {
     font-size: 0.8em;
     display: block;
