@@ -6,6 +6,7 @@
     <file name="about.html"/>
     <directory name="blog">
       <file name="post1.html"/>
+      <file name="post2.html"/>
     </directory>
   </directory>
 </tree>
