@@ -7,6 +7,7 @@
     <directory name="blog">
       <file name="post1.html"/>
       <file name="post2.html"/>
+      <file name="post3.html"/>
     </directory>
   </directory>
 </tree>
