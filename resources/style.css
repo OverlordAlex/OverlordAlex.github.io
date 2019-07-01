@@ -109,7 +109,7 @@ main .heading {
     margin:0;
 }
 main .heading time {
-    color: darkgrey;
+    color: dimgrey;
     display:block;
     text-align:right;
 }
