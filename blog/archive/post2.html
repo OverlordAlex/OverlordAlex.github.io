@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/resources/style.css">
+    <title>It's a bug, not a feature</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+<head/>
+
+    <body>
+        <div class="site">
+<header class="site-header">
+    <h1>It's a bug, not a feature</h1>
+<hr>
+<nav class="site-nav">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/sitemap.html">Sitemap</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/about.html">About</a></li>
+    </ul>
+</nav>
+</header>
+
+<aside class="site-aside">
+    <figure style="display:inline-block">
+        <img src="/resources/images/profile.jpg" 
+             alt="A picture of the author"
+             title="My childhood doggo"
+             syle="max-width:320px;max-height:240px"
+        />
+        <figcaption style="max-width:320px">
+        A personal blog with random musings, anecdotes, and sometimes even something insightful.
+        <figcaption>
+    </figure>
+    <ul>
+        <li><a href="https://drive.google.com/file/d/1mHB77NGXMSfeEQlbWGXiNgr7l3KzvAm4/view">CV</a></li>
+        <li><a href="https://www.linkedin.com/in/alexparadisewright/">LinkedIn/AlexParadiseWright</a></li>
+        <li><a href="https://github.com/OverlordAlex">github.com/OverlordAlex</a></li>
+    </ul>
+    <hr width="320px">
+    <ul>
+<li><a href="/blog/post1.html">HEADING</a></li>
+    </ul>
+</aside>
+
+            <main class="main">
+                <article>
+                    <section class="heading">
+                        <h1>On learning HTML and CSS</h1>
+                        <time>Wednesday, 8 May 2019</time>
+                    </section>
+                    <section>
+                        <p>If you haven't noticed yet, this site is entirely built using only HTML5 and CSS<sup><a id="citationbackref[1]" href="#citation[1]">[1]</a></sup>. I'm rather proud of this - the pages are blazing fast to load and only take around 25kb</p>
+                        <p>If we break it down further this is 2kb for the CSS, 17kb for that adorable profile picture, and then the rest is content<sup><a id="citationbackref[2]" href="#citation[2]">[2]</a></sup>. Not too shabby!</p>
+                        <p>As part of developing this there were some cool bits that I stumbled across - most of this should be familiar to anyone who's touched web code in the last 5 years but were new to me!
+                    </section>
+                    <section>
+                        <p>I'm a backend developer through and through - at university<sup><a id="citationbackref[3]" href="#citation[3]">[3]</a></sup> we didn't even look at an HTML tag, nevermind something as revolutionary as jQuery!<sup><a id="citationbackref[4]" href="#citation[4]">[4]</a></sup></p>
+                        <p>This means that all my exposure was through piece-meal picking at websites when they weren't working quite right, or one of the numerous times I tried to start a personal site and ended up with yet another shitty, bloated, unintelligible wordpress theme - no offence, I just hated not understanding what was going on and not being able to meaningfully change it.</p>
+                        <p>Finally, thanks to GitHub Pages and some spare energy I worked up the impetus to get my shit together.</p>
+                    </section>
+
+                    <section>
+                        <h2>CSS Grid</h2>
+                        <p>Probably the coolest thing I learnt was about CSS grid - it made incredibly intuitive sense! Simply define the grid, name the areas, and voilà! Responsive web design!</p>
+                        <p>There are many, many blogs extolling the virtues of grid<sup><a id="citationbackref[5]" href="#citation[5]">[5]</a></sup> and explaining how to use it, but honestly it was so straightforward I couldn't believe it!</p>
+                    </section>
+
+                    <section>
+                        <h2>Semantic HTML</h2>
+                        <p>For a long time I held the belief that HTML was a soup of random tags pulled from a hat, and while that's still largely true I like the direction and push to use semantic tags - at the very least I feel better writing it.</p>
+                    </section>
+
+                    <section>
+                        <h2>Bash + Sed</h2>
+                        <p>It's kinda odd, however I take a rather perverse pleasure in writing bash. Every inscrutable line, all the pipes, the arrays - they all make me feel a little bit like a maverick, a rebel, a rule-breaker. But honestly, who wouldn't want that?<sup><a id="citationbackref[6]" href="#citation[6]">[6]</a></sup></p>
+                        <p>It was far too tempting to re-invent the wheel and write some bash for this site, and since it is based around interpolation of course I had to dig out old memories of using sed. After some liberal application of Stack Overflow I eventually got to this line, which is awful</p>
+                        <code>
+                            sed -e "/##$filename##/  {" -e "r $f" -e "d" -e "}" -i {} \;
+                        </code>
+                        <p>What the hell is going on with all those options anyways??</p>
+                    </section>
+                    <section class='references'>
+                        <table>
+                        <tr id="citation[1]"><td align="right" valign="top"><a href="#citationbackref[1]">[1]</a></td><td>You can find the source <a href="https://github.com/OverlordAlex/website">here</a></td></tr>
+                        <tr id="citation[2]"><td align="right" valign="top"><a href="#citationbackref[2]">[2]</a></td><td>Yes yes, also the header, footer, and navbar - however these are negligible</td></tr>
+                        <tr id="citation[3]"><td align="right" valign="top"><a href="#citationbackref[3]">[3]</a></td><td>Not ragging on the <a href="www.sun.ac.za">university</a>, the CS program is actually really good</td></tr>
+                        <tr id="citation[4]"><td align="right" valign="top"><a href="#citationbackref[4]">[4]</a></td><td>Stop it Patrick! You're scaring the other backend developers!</td></tr>
+                        <tr id="citation[5]"><td align="right" valign="top"><a href="#citationbackref[5]">[5]</a></td><td>Even <a href="https://en.wikipedia.org/wiki/CSS_grid_layout#Motivation">Wikipedia</a> is getting in on the action</td></tr>
+                        <tr id="citation[6]"><td align="right" valign="top"><a href="#citationbackref[6]">[6]</a></td><td>Citation Required. Also, anyone on a team or anyone who wants to write maintainable, stable, and safe code</td></tr>
+                        </table>
+                    </section>
+                </article>
+            </main>
+
+<footer class="site-footer">
+    <hr>
+    <a href="https://github.com/OverlordAlex/website">Website Source</a> : Written by Alex&nbsp;Paradise&nbsp;Wright
+    <br>
+    Page automatically generated at
+<time>Thu Jul 16 23:35:01 CEST 2020</time>
+</footer>
+        </div><!-- .site -->
+    </body>
+</html>
+
+            

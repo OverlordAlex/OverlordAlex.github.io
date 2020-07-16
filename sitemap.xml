@@ -7,9 +7,13 @@
     <file name="about.html"/>
     <directory name="blog">
       <file name="post1.html"/>
-      <file name="post2.html"/>
-      <file name="post4.html"/>
-      <file name="post3.html"/>
+      <directory name="archive">
+        <file name="post1.html"/>
+        <file name="post2.html"/>
+        <file name="post4.html"/>
+        <file name="post3.html"/>
+        <file name="post5.html"/>
+      </directory>
     </directory>
   </directory>
 </tree>
