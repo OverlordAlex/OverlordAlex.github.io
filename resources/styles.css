@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    background-color: #0d1117;
 }
 body {
     margin: 0;
@@ -27,7 +28,8 @@ main {
     flex-flow: row nowrap;
     padding: 15px;
 
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+    background-color: #ffffff;
 }
 
 img {
@@ -63,3 +65,5 @@ aside {
     padding: 0.5em;
     max-width: 80ch;
 }
+
+
