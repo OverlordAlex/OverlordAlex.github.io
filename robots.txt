@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /resources/images/
+Disallow: /old_2022_11_12/
+Disallow: /game/
