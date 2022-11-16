@@ -5,6 +5,8 @@ html, body {
 }
 body {
     margin: 0;
+    background-image: url("/resources/background.svg");
+    background-size: 100% auto;
 }
 
 header {
