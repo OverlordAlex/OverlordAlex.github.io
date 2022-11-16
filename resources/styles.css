@@ -35,7 +35,7 @@ main {
     background-color: #ffffff;
 }
 
-img {
+aside img {
     max-width: 100%;
     height: auto;
 }
@@ -62,6 +62,13 @@ aside {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #000000;
+    display:flex;
+    align-items:center;
 }
 
 .about {
