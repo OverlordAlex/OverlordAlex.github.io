@@ -57,10 +57,16 @@ aside {
     margin-top: -5px;
 }
 
+.contact-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
 .contact {
     padding: 0.5em;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: space-around;
 }
 
